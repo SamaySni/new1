@@ -1,0 +1,410 @@
+
+
+html {
+    background-color: white;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*{
+    cursor: url('Blue Transparent Circle.cur'),default;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    
+    overflow-x:hidden;
+    font-family: 'Open Sans',sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    
+     background-image: url('images/imggif.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+}
+li{
+    list-styles:none;
+    display: inline-block;
+    
+}
+a{
+    text-decoration: :none;
+    transition: all 500ms ease-in-out;
+    
+}
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4{
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+p{
+    font-size: 15px;
+    line-height: 21px;
+}
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important
+}
+
+.carousel-inner {
+    /* position: relative; */
+    /* width: 100%; */
+    /* overflow: hidden; */
+}
+
+#headerText
+{
+    color: black;
+   
+}
+
+
+.navbar
+{
+     overflow: hidden;
+    background-color: white !important;
+text-transform: uppercase;
+    text-decoration-color: black;
+  background: transparent;
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 700;
+    text-decoration:underline;
+}
+.navbar a{
+    color: cornsilk !important;
+    text-decoration-color: white;
+    opacity: 0.7;
+}
+.navbar a:hover{
+    opacity:1;
+    background-color: black !important;
+}
+.navbar a {
+    color: #F7A6CD !important;
+    text-decoration-color: white;
+    opacity: 0.7;
+}
+
+
+
+/*header*/
+
+
+.header{
+    height: 600px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.header1{
+    height: 600px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.header1 h1{
+    color: black;
+    
+}
+
+
+.header img{
+    height: 350%;
+    
+    width: 50%;
+     background-repeat: no-repeat;
+    background-size: cover;
+    animation-play-state: running;
+    animation-direction: alternate;
+    
+        margin: 70px 0 0 40px;
+    
+}
+.header1 img{
+    height: 200%;
+    
+    width: 100%;
+    
+}
+.header1 h2{
+    font-size: 100px;
+}
+.header1 content1{
+    position: absolute;
+}
+
+.header1 .contents{
+    
+    padding:10px;
+    margin:0 auto;
+    width: 600px;
+    min-height: 3000px;
+    font-family:sand-serif;
+}
+.header1  .read-more{
+    
+    padding: 15px;
+    margin-bottom: :200px;
+    
+
+}
+.header1  .read-more-link,  .show-less-link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: mediumaquamarine;
+} 
+
+.header .btn {
+    border-radius: 0;
+    margin: 40px 20px;
+    color: aquamarine;
+    background-color: rebeccapurple;
+}
+.header h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+    transform: scale(1.1);
+}
+
+.header h1,
+.header p,
+.header button{
+    
+    margin-top: 20px;
+    
+}
+.header .btn{
+    border-radius: 0;
+    margin:40px 20px;
+}
+
+@media(max-width:768px)
+{
+    .header{
+        padding: 30px;
+        height: 750px;
+        
+    }
+    .header img{
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+    .header .btn{
+        font-size: 10px;
+        margin-left:20px;
+    }
+    .header h1{
+        font-size: 20px;
+        
+    }
+    .header p{
+        font-size: 10px
+    }
+}
+
+/*services*/
+
+
+.services{
+    padding:80px;
+    text-align: center;
+}
+.services h2,
+.services h4{
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+.services p{
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.services i {
+    height:80px;
+    width:80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    .services {
+        padding:30px;
+    }
+}
+
+
+
+/*pricing*/
+
+
+.pricing{
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #3399ff;
+}
+
+
+.pricing h2,
+.pricing p{
+    color: #fff;
+    
+}
+.pricing p{
+    padding-bottom: 40px;
+}
+.pricing .packages {
+    
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+}
+.packages li{
+    display: block;
+    padding: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b{
+    color:#4c4c4c;
+}
+
+.packages p,
+.packages li {
+    color: #737373;
+}
+
+.packages button {
+    margin-top: 10px;
+}
+
+
+@media(max-width:768px){
+    .pricing {
+        padding: 30px;
+    }
+    .packages {
+        width "80px;
+        margin-left: 25px;
+    }
+}
+
+
+/* team */
+
+.team  
+{
+    padding: 50px 0 80px;
+    text-align: center;
+   background-color: silver;
+}
+
+.team b,
+.team h2,
+.team h4
+{
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+.team p{
+    color: #737373;
+}
+
+.team img{
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+    
+}
+
+.team i{
+    height: 30px;
+    width:30px;
+    padding: 5px;
+    font-size:17px;
+    border-radius: 50%;
+    background-color: #a0db8e
+}
+
+.team a:hover i{
+     background-color: #709963;
+    
+}
+
+/* team */
+
+
+
+.clients{
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: #fff;
+}
+
+.clients h2{
+    color: #5e5e5e;
+}
+
+.clients p{
+    padding-bottom: 40px;
+}
+
+.clients img{
+    
+    widows: 200px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+        
+}
+
+
+.clients li:hover img {
+    opacity: 1;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: white;
+    background-color: peachpuff;
+}
+

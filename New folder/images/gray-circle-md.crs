@@ -1,0 +1,45 @@
+﻿[UpArrow]
+Path=Alternate Select (alternativo)
+
+[Help]
+Path=Help Select (Ayuda)
+
+[SizeNWSE]
+Path=Diagonal Resize 1
+
+[SizeNESW]
+Path=Diagonal Resize 2
+
+[NWPen]
+Path=Handwriting (escritura a mano)
+
+[SizeWE]
+Path=Horizontal Resize
+
+[Hand]
+Path=Link Select
+
+[SizeAll]
+Path=Move (mover)
+
+[Arrow]
+Path=Normal Select
+
+[Wait]
+Path=Busy (ocupado)
+
+[Crosshair]
+Path=Precision Select
+
+[IBeam]
+Path=Text Select (texto)
+
+[AppStarting]
+Path=Working in Background (trabajando en segundo plano)
+
+[SizeNS]
+Path=Vertical Resize
+
+[No]
+Path=Unavailable (no disponible)
+
